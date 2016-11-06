@@ -6,3 +6,6 @@ import sys
 
 path = os.getcwd()
 sys.path.append(path)
+
+# noinspection PyUnresolvedReferences
+from bigservice import app as application
